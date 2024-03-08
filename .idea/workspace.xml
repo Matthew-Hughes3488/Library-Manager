@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/InputValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/InputValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/InputManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/InputManagerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/InputValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InputValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InputValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +24,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="input-manager" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dPwHK6Q0g6goqI3ccC8sYZYsqX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,7 +47,7 @@
     "JUnit.InputValidatorTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "input-validator",
+    "git-widget-placeholder": "input-manager",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -60,6 +67,19 @@
       <option name="presentableId" value="Default" />
       <updated>1709922931855</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created an tested an input validator class. currently only validates if an int input is within range">
+      <option name="closed" value="true" />
+      <created>1709930931705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709930931705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created an tested an input validator class. currently only validates if an int input is within range" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an tested an input validator class. currently only validates if an int input is within range" />
   </component>
 </project>
