@@ -12,8 +12,10 @@ public class InputManager {
         while(true){
             try{
                 int userInput = SCANNER.nextInt();
+
                 if(!InputValidator.isValidIntInput(userInput, min, max))
                     throw new InputMismatchException(String.format("Number not in range of %d to %d", min, max));
+
                 SCANNER.nextLine();
                 return userInput;
             }catch (Exception e){
@@ -27,6 +29,10 @@ public class InputManager {
         while(true){
             try{
                 String userInput = SCANNER.nextLine();
+
+                if(!InputValidator.isValidString(userInput))
+                    throw new InputMismatchException("String cannot be empty");
+
                 SCANNER.nextLine();
                 return userInput;
             } catch (Exception e){
