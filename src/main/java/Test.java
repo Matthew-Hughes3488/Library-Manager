@@ -9,8 +9,7 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) throws IOException {
-        UserFileReader userFileReader = new UserFileReader();
-        List<User> users = userFileReader.readUserFromJson();
-        System.out.println(users);
+        BookFileManager bookFileManager = new BookFileManager();
+        System.out.println(bookFileManager.getBooksOnLoanList());
     }
 }

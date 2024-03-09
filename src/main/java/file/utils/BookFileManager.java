@@ -3,6 +3,7 @@ package file.utils;
 import library.Book;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BookFileManager {
@@ -18,6 +19,10 @@ public class BookFileManager {
 
     public List<Book> getBookList() throws IOException {
         return bookFileReader.readBooksFromJson();
+    }
+
+    public List<Book> getBooksOnLoanList() throws IOException{
+        return bookFileReader.readBooksOnLoanFromJson();
     }
 
     public void writeBooksToJson (List<Book> books){

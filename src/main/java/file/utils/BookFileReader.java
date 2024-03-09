@@ -38,4 +38,20 @@ public class BookFileReader {
 
         return books;
     }
+
+    public List<Book> readBooksOnLoanFromJson() throws IOException {
+
+        File jsonFile = new File("target/classes/loaned_books_data.json");
+
+        if (fileIsEmpty(jsonFile)){
+            return null;
+        }
+        List<Book> books = mapper.readValue(jsonFile, new TypeReference<List<Book>>() {});
+
+        return books;
+    }
+
+    private boolean fileIsEmpty(File file){
+        return file.length() == 0;
+    }
 }

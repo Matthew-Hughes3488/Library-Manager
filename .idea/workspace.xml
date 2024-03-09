@@ -7,8 +7,8 @@
     <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Refeactored BookToJson.java into a generic ObjectToJson class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/UserFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/UserFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "user-file-reader",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library-Manager/src/main/java/File/utils"
   }
