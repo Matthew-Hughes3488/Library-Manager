@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="App can now read book data from the newly generated Json Files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/utils/UserFileReader.java" afterDir="false" />
+    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Refeactored BookToJson.java into a generic ObjectToJson class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/ObjectToJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/UserFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/UserFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709957547678</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refeactored BookToJson.java into a generic ObjectToJson class">
+      <option name="closed" value="true" />
+      <created>1709958339175</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709958339175</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,7 +233,8 @@
     <MESSAGE value="App can now read book data from the newly generated Json Files" />
     <MESSAGE value="Created new userclass" />
     <MESSAGE value="removed tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed tests" />
+    <MESSAGE value="Refeactored BookToJson.java into a generic ObjectToJson class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refeactored BookToJson.java into a generic ObjectToJson class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
