@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Created a new book class to represent the data from the csv file">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/File/utils/FileParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/books_data.csv" afterDir="false" />
+    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Created a FileReader class and to read from a provided csv file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/File/utils/BookFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InputValidatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.OutputManagerTests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;file-reader&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/matthewhughes/development/nology/projects/Library/src/main/java/File/utils&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Run",
+    "JUnit.InputValidatorTest.executor": "Run",
+    "JUnit.OutputManagerTests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "file-reader",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library/src/main/java/File/utils"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/File/utils" />
       <recent name="$PROJECT_DIR$/src/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -103,13 +102,32 @@
       <option name="project" value="LOCAL" />
       <updated>1709936778633</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created a FileReader class and to read from a provided csv file">
+      <option name="closed" value="true" />
+      <created>1709943108635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709943108635</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created an tested an input validator class. currently only validates if an int input is within range" />
     <MESSAGE value="Finished and tested basic implementation of my output manager class" />
     <MESSAGE value="Created a new book class to represent the data from the csv file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new book class to represent the data from the csv file" />
+    <MESSAGE value="Created a FileReader class and to read from a provided csv file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a FileReader class and to read from a provided csv file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
