@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="App can now read book data from the newly generated Json Files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/library/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/file/utils/UserFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/InputManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/InputValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/OutputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InputManagerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InputManagerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InputValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InputValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/OutputManagerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/OutputManagerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/ObjectToJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "user-class",
+    "git-widget-placeholder": "user-file-reader",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library-Manager/src/main/java/File/utils"
   }
@@ -199,7 +192,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709956274019</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Created new userclass">
+      <option name="closed" value="true" />
+      <created>1709957523082</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709957523082</updated>
+    </task>
+    <task id="LOCAL-00014" summary="removed tests">
+      <option name="closed" value="true" />
+      <created>1709957547677</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709957547678</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,7 +223,9 @@
     <MESSAGE value="Created class and method that takes a list of Books and converts it into a Json string" />
     <MESSAGE value="Updated Json File writer" />
     <MESSAGE value="App can now read book data from the newly generated Json Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="App can now read book data from the newly generated Json Files" />
+    <MESSAGE value="Created new userclass" />
+    <MESSAGE value="removed tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
