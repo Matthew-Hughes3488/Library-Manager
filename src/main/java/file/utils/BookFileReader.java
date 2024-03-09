@@ -1,17 +1,18 @@
-package File.utils;
+package file.utils;
 
 import Library.Book;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.*;
 import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class BookCsvReader {
+public class BookFileReader {
     private final String csvFile = "/books_data.csv";
     private final String splitBy = ",";
+    private final ObjectMapper mapper = new ObjectMapper();
     Pattern pattern = Pattern.compile(",");
 
     public List<Book> readFile() {
@@ -28,6 +29,13 @@ public class BookCsvReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return books;
+    }
+    public List<Book> readBooksFromJson() throws IOException {
+
+        File jsonFile = new File("target/classes/Books_data");
+        List<Book> books = mapper.readValue(jsonFile, new TypeReference<List<Book>>() {});
+
         return books;
     }
 }

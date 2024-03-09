@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Created class and method that takes a list of Books and converts it into a Json string">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookCsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/File/utils/BookCsvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/File/utils/BookToJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="App can now read book data from the newly generated Json Files">
+      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Matthew-Hughes3488"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f59701a5-335f-4a30-8dd4-3d0286ed03c9" />
+        <option name="url" value="https://github.com/Matthew-Hughes3488/Library-Manager.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -49,18 +60,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "bookToJson-class",
+    "git-widget-placeholder": "book-file-manager",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library/src"
+    "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library-Manager/src/main/java/File/utils"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/File/utils" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/file/utils" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -152,7 +165,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709951613515</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created class and method that takes a list of Books and converts it into a Json string">
+      <option name="closed" value="true" />
+      <created>1709954635699</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709954635699</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated Json File writer">
+      <option name="closed" value="true" />
+      <created>1709955441478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709955441478</updated>
+    </task>
+    <task id="LOCAL-00012" summary="App can now read book data from the newly generated Json Files">
+      <option name="closed" value="true" />
+      <created>1709956274019</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709956274019</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,7 +202,9 @@
     <MESSAGE value="Renamed class" />
     <MESSAGE value="Refactored to use a map and stream for reading data instead" />
     <MESSAGE value="Created class and method that takes a list of Books and converts it into a Json string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class and method that takes a list of Books and converts it into a Json string" />
+    <MESSAGE value="Updated Json File writer" />
+    <MESSAGE value="App can now read book data from the newly generated Json Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="App can now read book data from the newly generated Json Files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
