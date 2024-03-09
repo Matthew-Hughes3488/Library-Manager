@@ -1,15 +1,17 @@
-import File.utils.BookCsvReader;
-import File.utils.BookToJson;
 import Library.Book;
+import file.utils.BookFileReader;
+import file.utils.BookToJson;
+import file.utils.JsonFileWriter;
 
 import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        BookCsvReader bookCsvReader = new BookCsvReader();
+        BookFileReader bookFileReader = new BookFileReader();
         BookToJson bookToJson = new BookToJson();
-        List<Book> books = bookCsvReader.readFile();
-        bookToJson.writeJsonToFile(bookToJson.convertToJson(books));
+        JsonFileWriter jsonFileWriter = new JsonFileWriter();
+        List<Book> books = bookFileReader.readFile();
+        jsonFileWriter.writeJsonToFile(bookToJson.convertToJson(books), "books_data");
         System.out.println(bookToJson.convertToJson(books));
     }
 }

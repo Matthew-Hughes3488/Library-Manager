@@ -1,4 +1,4 @@
-package File.utils;
+package file.utils;
 
 public class BookFileManager {
 }

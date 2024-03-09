@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Created class and method that takes a list of Books and converts it into a Json string">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookCsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/File/utils/BookCsvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/File/utils/BookToJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookCsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookToJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/JsonFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/JsonFileWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/books_data.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +53,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "bookToJson-class",
+    "git-widget-placeholder": "book-file-manager",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library/src"
+    "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library-Manager/src/main/java/File/utils"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/File/utils" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/file/utils" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -152,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709951613515</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created class and method that takes a list of Books and converts it into a Json string">
+      <option name="closed" value="true" />
+      <created>1709954635699</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709954635699</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
