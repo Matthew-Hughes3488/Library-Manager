@@ -8,11 +8,11 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookFileReader {
+public class BookCsvReader {
     private String csvFile;
     private String splitBy = ",";
 
-    public BookFileReader(String csvFile) {
+    public BookCsvReader(String csvFile) {
         this.csvFile = csvFile;
     }
 
