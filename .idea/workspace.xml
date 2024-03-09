@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/OutputManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/OutputManagerTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Refactored large readFile method and renamed the class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,14 +38,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Test.executor": "Run",
     "JUnit.InputValidatorTest.executor": "Run",
     "JUnit.OutputManagerTests.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "output-manager",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "file-reader",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library/src/main/java/File/utils"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/File/utils" />
+      <recent name="$PROJECT_DIR$/src/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,11 +82,57 @@
       <option name="project" value="LOCAL" />
       <updated>1709930931705</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished and tested basic implementation of my output manager class">
+      <option name="closed" value="true" />
+      <created>1709936298147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709936298147</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created a new book class to represent the data from the csv file">
+      <option name="closed" value="true" />
+      <created>1709936778633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709936778633</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created a FileReader class and to read from a provided csv file">
+      <option name="closed" value="true" />
+      <created>1709943108635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709943108635</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactored large readFile method and renamed the class">
+      <option name="closed" value="true" />
+      <created>1709947696992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709947696992</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created an tested an input validator class. currently only validates if an int input is within range" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an tested an input validator class. currently only validates if an int input is within range" />
+    <MESSAGE value="Finished and tested basic implementation of my output manager class" />
+    <MESSAGE value="Created a new book class to represent the data from the csv file" />
+    <MESSAGE value="Created a FileReader class and to read from a provided csv file" />
+    <MESSAGE value="Refactored large readFile method and renamed the class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored large readFile method and renamed the class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
