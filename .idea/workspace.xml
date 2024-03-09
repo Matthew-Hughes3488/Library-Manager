@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Refactored to use a map and stream for reading data instead">
-      <change afterPath="$PROJECT_DIR$/src/main/java/File/utils/BookToJson.java" afterDir="false" />
+    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Created class and method that takes a list of Books and converts it into a Json string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookCsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/File/utils/BookCsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/File/utils/BookToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/File/utils/BookToJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709950830789</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created class and method that takes a list of Books and converts it into a Json string">
+      <option name="closed" value="true" />
+      <created>1709951613515</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709951613515</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,7 +164,8 @@
     <MESSAGE value="removed unused imports" />
     <MESSAGE value="Renamed class" />
     <MESSAGE value="Refactored to use a map and stream for reading data instead" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored to use a map and stream for reading data instead" />
+    <MESSAGE value="Created class and method that takes a list of Books and converts it into a Json string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created class and method that takes a list of Books and converts it into a Json string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

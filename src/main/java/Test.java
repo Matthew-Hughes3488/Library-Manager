@@ -9,6 +9,7 @@ public class Test {
         BookCsvReader bookCsvReader = new BookCsvReader();
         BookToJson bookToJson = new BookToJson();
         List<Book> books = bookCsvReader.readFile();
+        bookToJson.writeJsonToFile(bookToJson.convertToJson(books));
         System.out.println(bookToJson.convertToJson(books));
     }
 }
