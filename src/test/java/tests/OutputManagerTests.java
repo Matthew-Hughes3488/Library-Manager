@@ -1,6 +1,6 @@
 package tests;
 
-import Utils.OutputManager;
+import utils.OutputManager;
 import org.junit.Before;
 import org.junit.Test;
 import java.io.ByteArrayOutputStream;

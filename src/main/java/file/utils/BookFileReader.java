@@ -1,6 +1,6 @@
 package file.utils;
 
-import Library.Book;
+import library.Book;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -33,7 +33,7 @@ public class BookFileReader {
     }
     public List<Book> readBooksFromJson() throws IOException {
 
-        File jsonFile = new File("target/classes/Books_data");
+        File jsonFile = new File("target/classes/books_data.json");
         List<Book> books = mapper.readValue(jsonFile, new TypeReference<List<Book>>() {});
 
         return books;
