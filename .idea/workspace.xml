@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Updated Json File writer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" afterDir="false" />
+    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="App can now read book data from the newly generated Json Files">
+      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Matthew-Hughes3488"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f59701a5-335f-4a30-8dd4-3d0286ed03c9" />
+        <option name="url" value="https://github.com/Matthew-Hughes3488/Library-Manager.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -169,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709955441478</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="App can now read book data from the newly generated Json Files">
+      <option name="closed" value="true" />
+      <created>1709956274019</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709956274019</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,7 +203,8 @@
     <MESSAGE value="Refactored to use a map and stream for reading data instead" />
     <MESSAGE value="Created class and method that takes a list of Books and converts it into a Json string" />
     <MESSAGE value="Updated Json File writer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Json File writer" />
+    <MESSAGE value="App can now read book data from the newly generated Json Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="App can now read book data from the newly generated Json Files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
