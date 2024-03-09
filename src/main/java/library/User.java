@@ -1,12 +1,19 @@
 package library;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.List;
 
 public class User {
     private String username;
     private String password;
     private List<Book> booksCheckedOut;
+    @JsonProperty("admin")
     private boolean isAdmin;
+
+    public User(){
+
+    }
 
     public User(String username, String password, List<Book> booksCheckedOut, boolean isAdmin) {
         this.username = username;
@@ -50,5 +57,15 @@ public class User {
 
     public void returnBook(Book book){
         booksCheckedOut.remove(book);
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", booksCheckedOut=" + booksCheckedOut +
+                ", isAdmin=" + isAdmin +
+                '}';
     }
 }

@@ -1,18 +1,18 @@
 package file.utils;
 
-import Library.Book;
+import library.Book;
 
 import java.io.IOException;
 import java.util.List;
 
 public class BookFileManager {
     private BookFileReader bookFileReader;
-    private BookToJson bookToJson;
+    private ObjectToJson<Book> objectToJson;
     private JsonFileWriter jsonFileWriter;
 
     public BookFileManager() {
         this.bookFileReader = new BookFileReader();
-        this.bookToJson = new BookToJson();
+        this.objectToJson = new ObjectToJson<Book>();
         this.jsonFileWriter = new JsonFileWriter();
     }
 
@@ -21,6 +21,6 @@ public class BookFileManager {
     }
 
     public void writeBooksToJson (List<Book> books){
-        jsonFileWriter.writeJsonToFile(bookToJson.convertToJson(books), "books_data.json");
+        jsonFileWriter.writeJsonToFile(objectToJson.convertToJson(books), "books_data.json");
     }
 }
