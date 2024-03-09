@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 public class BookFileReader {
     private final String csvFile = "/books_data.csv";
     private final String splitBy = ",";
+    private final ObjectMapper mapper = new ObjectMapper();
     Pattern pattern = Pattern.compile(",");
 
     public List<Book> readFile() {
@@ -30,12 +31,10 @@ public class BookFileReader {
         }
         return books;
     }
+    public List<Book> readBooksFromJson() throws IOException {
 
-    public List<Book> readBooksFromFile(String filePath) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-
-        // Read the JSON file into a List<Book> using Jackson's TypeReference
-        List<Book> books = objectMapper.readValue(new File(filePath), new TypeReference<List<Book>>(){});
+        File jsonFile = new File("target/classes/Books_data");
+        List<Book> books = mapper.readValue(jsonFile, new TypeReference<List<Book>>() {});
 
         return books;
     }
