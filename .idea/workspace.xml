@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="App can now read book data from the newly generated Json Files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/InputManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/InputValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/OutputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InputManagerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InputManagerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InputValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InputValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/OutputManagerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/OutputManagerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +37,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Matthew-Hughes3488"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Matthew-Hughes3488&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -60,7 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "book-file-manager",
+    "git-widget-placeholder": "user-class",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library-Manager/src/main/java/File/utils"
   }

@@ -3,7 +3,7 @@ package tests;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import Utils.InputManager;
+import utils.InputManager;
 
 public class InputManagerTests {
     private InputManager inputManager = new InputManager();

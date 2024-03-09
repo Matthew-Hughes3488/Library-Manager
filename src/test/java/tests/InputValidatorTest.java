@@ -1,5 +1,5 @@
 package tests;
-import Utils.InputValidator;
+import utils.InputValidator;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
