@@ -21,9 +21,10 @@ public class LibrarySetup {
 
         BookLoanManager bookLoanManager = new BookLoanManager(user, bookList, booksOnLoanList);
 
-        String[] commands ={"Register New User", "Login", "List Books", "Return Book", "Print Report", "Quit"};
+        String[] commands ={"Register New User", "Login", "List Books", "Checkout Book", "Return Book", "Print Report", "Quit"};
 
         LibraryManager libraryManager = new LibraryManager(bookLoanManager, new InputManager(), new OutputManager(commands), user);
+        libraryManager.mainLoop();
 
     }
 }

@@ -18,12 +18,15 @@ public class LibraryManager {
 
     // ask for user inputs on a loop until
     public void mainLoop(){
-        while(true){
+        while(true) {
             outputManager.printCommands();
             System.out.println("Please enter a command: ");
-            int userInput = inputManager.getIntInput(0, 5);
+            int userInput = inputManager.getIntInput(0, 6);
 
-            processInput(userInput);
+            if (!processInput(userInput)){
+                processAppClose();
+                break;
+            }
         }
     }
 
@@ -34,14 +37,46 @@ public class LibraryManager {
             case 1:
                 //validate user
             case 2:
-                //list all books
+                bookLoanManager.printAllBooks();
+                break;
             case 3:
-                //checkout book
+                processCheckout();
+                break;
             case 4:
-                //return book
+                processReturn();
+                break;
             case 5:
+                //print report
+            case 6:
                 return false;
         }
         return true;
+    }
+
+    //CLASS HERE TO PROCESS APP CLOSING I.E. WRITING THE DATA TO THE JSON FILES
+    private void processAppClose(){
+
+    }
+
+    private void processLogin(){
+    }
+
+    private void processNewUser(){
+    }
+
+    private void processLogout(){
+    }
+
+    private void processReturn() {
+        System.out.println("Enter the Id of the book you want to return");
+        int input = inputManager.getIntInput(0, 50);
+
+        bookLoanManager.checkin(input);
+    }
+    private void processCheckout() {
+        System.out.println("Enter the Id of the book you want to checkout");
+        int input = inputManager.getIntInput(0, 50);
+
+        bookLoanManager.checkout(input);
     }
 }

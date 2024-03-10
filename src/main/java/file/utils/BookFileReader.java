@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -44,7 +45,7 @@ public class BookFileReader {
         File jsonFile = new File("target/classes/loaned_books_data.json");
 
         if (fileIsEmpty(jsonFile)){
-            return null;
+            return new ArrayList<Book>();
         }
         List<Book> books = mapper.readValue(jsonFile, new TypeReference<List<Book>>() {});
 
