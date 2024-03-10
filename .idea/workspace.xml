@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Created BookLoanManager.java class that manages the checking out of books">
+    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Added a method to check books back in">
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/LibraryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/LibrarySetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +56,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LibrarySetup.executor": "Run",
     "Application.Test.executor": "Run",
     "JUnit.InputValidatorTest.executor": "Run",
     "JUnit.OutputManagerTests.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "libriary-managager-and-setup",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/matthewhughes/development/nology/projects/Library-Manager/src/main/java/File/utils"
   }
@@ -229,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709960215933</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added a method to check books back in">
+      <option name="closed" value="true" />
+      <created>1710102708788</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710102708788</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,7 +260,8 @@
     <MESSAGE value="Refeactored BookToJson.java into a generic ObjectToJson class" />
     <MESSAGE value="Created booksOnLoan.json and methods for reading it" />
     <MESSAGE value="Created BookLoanManager.java class that manages the checking out of books" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created BookLoanManager.java class that manages the checking out of books" />
+    <MESSAGE value="Added a method to check books back in" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a method to check books back in" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
