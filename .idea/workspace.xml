@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Finished LibrarySetup class and outlined the methods for the manager class">
+    <list default="true" id="23ee1878-89ce-4920-8e55-0d13dd39ae8f" name="Changes" comment="Can now checkout,return, and print book list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/utils/BookFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/BookLoanManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/BookLoanManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/LibraryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/LibraryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/LibrarySetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/LibrarySetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710103954082</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Can now checkout,return, and print book list">
+      <option name="closed" value="true" />
+      <created>1710105155357</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710105155357</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,7 +276,8 @@
     <MESSAGE value="Created BookLoanManager.java class that manages the checking out of books" />
     <MESSAGE value="Added a method to check books back in" />
     <MESSAGE value="Finished LibrarySetup class and outlined the methods for the manager class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished LibrarySetup class and outlined the methods for the manager class" />
+    <MESSAGE value="Can now checkout,return, and print book list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can now checkout,return, and print book list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
